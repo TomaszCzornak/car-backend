@@ -11,7 +11,7 @@ import java.util.Date;
 
 @Component
 public class JwtService {
-	static final long EXPIRATIONTIME = 8640000000L; // 1 day in ms
+	static final long EXPIRATIONTIME = 86400000000L; // 1 day in ms
 	static final String PREFIX = "Bearer";
 	// Generate secret key. Only for the demonstration
 	// You should read it from the application configuration
